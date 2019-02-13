@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function ScheduleLayout(props){
   return (
@@ -15,7 +15,7 @@ function ScheduleLayout(props){
 ScheduleLayout.propTypes = {
   day: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  issue: PropTypes.string.isRequired,
+  hours: PropTypes.string.isRequired,
   booth: PropTypes.string.isRequired
 };
 

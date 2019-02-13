@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 import { HashRouter } from 'react-router-dom';
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import ReactDOM from 'react-dom';
+import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
 
 const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
       <HashRouter>
-        <Component/>
+        <Component />
       </HashRouter>
     </AppContainer>,
     document.getElementById('react-app-root')
@@ -16,7 +16,6 @@ const render = (Component) => {
 };
 
 render(App);
-
 /*eslint-disable */
 if (module.hot) {
   module.hot.accept('./components/App', () => {
